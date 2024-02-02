@@ -1,0 +1,19 @@
+/* ejercicio 6c saludos.c*/
+#include <stdio.h>
+
+void imprimeHola(void){
+  printf("Hola\n");
+}
+
+void imprimeChau(void){
+  printf("Chau\n");
+}
+  
+
+int main(void) {
+  imprimeHola();
+  imprimeHola();
+  imprimeChau();
+  imprimeChau();
+  return 0;
+}
